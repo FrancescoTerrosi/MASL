@@ -1,0 +1,11 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\vspace {-\cftbeforepartskip }
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
+\contentsline {chapter}{\numberline {2}Intrusion Detection and Prevention Systems}{5}{chapter.2}
+\contentsline {subsection}{\numberline {2.0.1}Machine Learning and IDS combined}{5}{subsection.2.0.1}
+\contentsline {chapter}{\numberline {3}Feature Selection}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Principal Component Analysis}{7}{section.3.1}
+\contentsline {chapter}{\numberline {4}Classification Approaches}{9}{chapter.4}
+\contentsline {chapter}{\numberline {5}IDS Implementation}{11}{chapter.5}
+\contentsline {chapter}{\numberline {6}Results \& Conclusions}{17}{chapter.6}

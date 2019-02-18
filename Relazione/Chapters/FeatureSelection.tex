@@ -1,0 +1,35 @@
+\chapter{Feature Selection}
+
+Feature selection is, no doubt, the critical part when we need to prepare the dataset for the training phase.\newline
+If one collects data for the training on its own (i.e. you don't buy data from authorized vendors), tipically they will have a lot of redundant attributes, a lot of useless attributes (for intrusion detection) and what he/she wants is to extract from all the observed data the most representative attributes for attacks and behaviours.\newline
+In this section we will briefly describe the techniques that can be used and the pros and cons of each approach.
+
+\begin{itemize}
+	\item \emph{Principal Component Analysis} One of the most used techniques for determining uncorrelated attributes and the one that has been used in this implementation
+	\vspace{0.3cm}
+	\item \emph{Correlation Based Feature Selection Method} works under the hypothesis that: "Good feature subsets contain features higlhly correlated with the class, yet uncorrelated with each other"
+	\vspace{0.3cm}
+	\item \emph{Information Gain Based Feature Selection}: roughly, we combine entropy calculation and Information Gain to select the attributes that give us the more information about the class we want to predict
+	\vspace{0.3cm}
+	\item \emph{Minimum Redundancy Maximum Relevance} is an approach based on the assumption that the most redundant features are the less relevant ones.
+\end{itemize}
+
+\section{Principal Component Analysis}
+
+Principal Component Analysis is a technique used for feature selection, which involves algebra techniques. The idea is to calculate the variance-covariance matrix and to calculate its eigenvectors and eigenvalues, in order to select the biggest ones (i.e. the ones that explain most of the variance in the dataset).\newline\newline
+	
+$
+V = 
+	\begin{pmatrix}
+		\sigma_{1} & \sigma_{12} & \sigma_{13} & \dots & \sigma_{1n}\\
+		\sigma_{21} & \sigma_{2} & \sigma_{23} & \dots & \sigma_{2n}\\
+		\vdots & \vdots & \vdots & \vdots & \vdots\\
+		\sigma_{n1} & \sigma_{n2} & \sigma_{n3} & \dots & \sigma_{n}\\
+	\end{pmatrix}
+$
+
+Given this matrix, calculate $det(V\ -\ \lambda I)\ = \ 0$ to obtain all the eigenvectors and eigenvalues, and choose the "best" ones that is:\newline\newline
+\begin{center}
+ $max\ | x |_{x\ eigenvalue\ \in V}$\newline\newline
+\end{center}
+To use this techniques, it is \emph{very} important to scale data: through standardization (mean=0, variance=1) or normalization (make values shrink [0,1]). This is because PCA produces a number n of eigenvalues and eigenvector, representing for each feature the impact it has on variance. If we have values with very different scales, we could give much more importance to integer values than to, for example, a rate values.

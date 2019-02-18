@@ -1,0 +1,65 @@
+\documentclass[]{beamer}%[handout] slides non ripetute
+
+\usetheme{Boadilla}
+\usecolortheme{wolverine}
+
+\usepackage{pdfpages}
+\usepackage{array}
+\usepackage[utf8]{inputenc}			%lettere accentate
+\usepackage[italian]{babel}			%sillabazione italiana
+\usepackage{amsmath}				%simboli matematici
+\usepackage{amsfonts}				%font matematici
+\usepackage{amssymb}				%altri simboli matematici
+\usepackage{tikz}					%grafica
+\usepackage{esint}					%simboli matematici
+
+\usepackage{listings}
+\usepackage{color}
+
+\author{Francesco Terrosi}
+
+\title{Intrusion Detection Systems}
+\subtitle{A machine learning approach for computer security}
+
+\institute[UniFi]{Università degli studi di Firenze}
+
+\date{20 febbraio 2019}
+
+\subject{Multivariate Analysis \& Statistical Learning}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{caption}[numbered]
+\setbeamerfont{caption}{size=\scriptsize}
+
+\usetikzlibrary{shapes,arrows}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=none,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\begin{document}
+	
+	{\logo{}
+	\maketitle}
+	
+	\include{chap/intro}
+	
+	
+\end{document}

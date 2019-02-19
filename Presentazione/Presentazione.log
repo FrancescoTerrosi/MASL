@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.2.8)  18 FEB 2019 18:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.2.8)  19 FEB 2019 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1100,7 +1100,29 @@ italian.ldf    on input line 57.
 \openout2 = `chap/intro.aux'.
 
 
-(./chap/intro.tex [2
+(./chap/intro.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 22.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 22.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+esint on input line 22.
+
+(/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 22.
+
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+[2
 
 
 ] [3
@@ -1114,37 +1136,14 @@ italian.ldf    on input line 57.
 ] [7
 
 ]
-<img/IDS.png, id=79, 706.64pt x 702.625pt>
+<img/IDS.png, id=80, 706.64pt x 702.625pt>
 File: img/IDS.png Graphic file (type png)
 <use img/IDS.png>
-Package pdftex.def Info: img/IDS.png  used on input line 75.
+Package pdftex.def Info: img/IDS.png  used on input line 78.
 (pdftex.def)             Requested size: 222.67903pt x 221.4138pt.
  [8
 
- <./img/IDS.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 96.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 96.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+esint on input line 96.
-
-(/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
-File: uesint.fd 
-)
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 96.
-
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
-[9
+ <./img/IDS.png>] [9
 
 ] [10
 
@@ -1156,10 +1155,10 @@ thkerncmss.
 <img/PreprocessCode.png, id=114, 675.52374pt x 318.18875pt>
 File: img/PreprocessCode.png Graphic file (type png)
 <use img/PreprocessCode.png>
-Package pdftex.def Info: img/PreprocessCode.png  used on input line 142.
+Package pdftex.def Info: img/PreprocessCode.png  used on input line 145.
 (pdftex.def)             Requested size: 342.2964pt x 161.23024pt.
 
-Overfull \vbox (4.97661pt too high) detected at line 142
+Overfull \vbox (4.97661pt too high) detected at line 145
  []
 
 [13
@@ -1170,7 +1169,7 @@ Overfull \vbox (4.97661pt too high) detected at line 142
 <img/Normalization.png, id=131, 442.65375pt x 392.46625pt>
 File: img/Normalization.png Graphic file (type png)
 <use img/Normalization.png>
-Package pdftex.def Info: img/Normalization.png  used on input line 158.
+Package pdftex.def Info: img/Normalization.png  used on input line 161.
 (pdftex.def)             Requested size: 235.03763pt x 208.38937pt.
  [15
 
@@ -1180,7 +1179,7 @@ Package pdftex.def Info: img/Normalization.png  used on input line 158.
 <img/PCA.png, id=149, 797.98125pt x 211.79124pt>
 File: img/PCA.png Graphic file (type png)
 <use img/PCA.png>
-Package pdftex.def Info: img/PCA.png  used on input line 181.
+Package pdftex.def Info: img/PCA.png  used on input line 184.
 (pdftex.def)             Requested size: 342.29726pt x 90.8487pt.
 
 [17
@@ -1193,7 +1192,7 @@ Package pdftex.def Info: img/PCA.png  used on input line 181.
 <img/Rpart.png, id=172, 822.07124pt x 188.705pt>
 File: img/Rpart.png Graphic file (type png)
 <use img/Rpart.png>
-Package pdftex.def Info: img/Rpart.png  used on input line 228.
+Package pdftex.def Info: img/Rpart.png  used on input line 231.
 (pdftex.def)             Requested size: 342.2947pt x 78.57314pt.
  [20
 
@@ -1233,10 +1232,10 @@ Package rerunfilecheck Info: File `Presentazione.out' has not changed.
 (rerunfilecheck)             Checksum: 4CA0FF56E3EE124326A4720E136735D1;47.
  ) 
 Here is how much of TeX's memory you used:
- 25165 strings out of 494459
- 504020 string characters out of 6174702
+ 25174 strings out of 494459
+ 504092 string characters out of 6174702
  795367 words of memory out of 5000000
- 28187 multiletter control sequences out of 15000+600000
+ 28196 multiletter control sequences out of 15000+600000
  14511 words of font info for 56 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  56i,15n,67p,780b,695s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1252,7 +1251,7 @@ c/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/
 msam10.pfb>
-Output written on Presentazione.pdf (28 pages, 320084 bytes).
+Output written on Presentazione.pdf (28 pages, 320111 bytes).
 PDF statistics:
  284 PDF objects out of 1000 (max. 8388607)
  216 compressed objects within 3 object streams
